@@ -1,0 +1,43 @@
+# do DE0_NANO.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 09:56:10 on Sep 15,2017
+# vlog -work work DE0_NANO.vo 
+# -- Compiling module DE0_NANO
+# 
+# Top level modules:
+# 	DE0_NANO
+# End time: 09:56:11 on Sep 15,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 09:56:11 on Sep 15,2017
+# vlog -work work sim.vwf.vt 
+# -- Compiling module DE0_NANO_vlg_sample_tst
+# -- Compiling module DE0_NANO_vlg_check_tst
+# -- Compiling module DE0_NANO_vlg_vec_tst
+# 
+# Top level modules:
+# 	DE0_NANO_vlg_vec_tst
+# End time: 09:56:11 on Sep 15,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -do "DE0_NANO.do" 
+# Start time: 09:56:11 on Sep 15,2017
+# Loading work.DE0_NANO_vlg_vec_tst
+# Loading work.DE0_NANO
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading work.DE0_NANO_vlg_sample_tst
+# Loading work.DE0_NANO_vlg_check_tst
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Warning: Design size of 23573 statements exceeds ModelSim Altera Starter recommended capacity.
+# Expect performance to be adversely affected.
+# Simulation passed !
+# ** Note: $finish    : sim.vwf.vt(284)
+#    Time: 100 us  Iteration: 0  Instance: /DE0_NANO_vlg_vec_tst/tb_out
+# End time: 09:56:15 on Sep 15,2017, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 1

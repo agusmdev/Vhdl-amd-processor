@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/gvodanovic/ArqComp/top/e2/DE0_NANO_mips/simulation/qsim
+vDE0_NANO
+Z0 !s110 1505480171
+!i10b 1
+!s100 5@J3S?Pn3kQWW1H`Ec<>E1
+IHKi[;Sn9De`NVTXBRHD?>3
+Z1 V`JN@9S9cnhjKRR_L]QIcM3
+Z2 d/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/simulation/qsim
+w1505480170
+8DE0_NANO.vo
+FDE0_NANO.vo
+L0 32
+Z3 OV;L;10.3c;59
+r1
+!s85 0
+31
+!s108 1505480170.777263
+!s107 DE0_NANO.vo|
+!s90 -work|work|DE0_NANO.vo|
+!i113 1
+Z4 o-work work
+n@d@e0_@n@a@n@o
+vDE0_NANO_vlg_check_tst
+R0
+!i10b 1
+!s100 m`d_bW1jk3^G62I<lOU`X3
+I=h3gS18b947>nEEzL5l7a1
+R1
+R2
+Z5 w1505480167
+Z6 8sim.vwf.vt
+Z7 Fsim.vwf.vt
+L0 60
+R3
+r1
+!s85 0
+31
+Z8 !s108 1505480171.353503
+Z9 !s107 sim.vwf.vt|
+Z10 !s90 -work|work|sim.vwf.vt|
+!i113 1
+R4
+n@d@e0_@n@a@n@o_vlg_check_tst
+vDE0_NANO_vlg_sample_tst
+R0
+!i10b 1
+!s100 Vlm1N45I1F7TO1kgl_Q??2
+IaV`<_fg86W?HWCm88f48]3
+R1
+R2
+R5
+R6
+R7
+L0 30
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R4
+n@d@e0_@n@a@n@o_vlg_sample_tst
+vDE0_NANO_vlg_vec_tst
+R0
+!i10b 1
+!s100 h7=mMm=?`zgn[GVbg89aE1
+IUNCY<fc@lz@[i[3SDKf2^0
+R1
+R2
+R5
+R6
+R7
+L0 288
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R4
+n@d@e0_@n@a@n@o_vlg_vec_tst

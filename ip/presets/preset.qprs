@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip>
+ <presets version="12.1">
+  <preset name="preset" kind="altclkctrl" version="All" description="">
+   <parameter name="NUMBER_OF_CLOCKS" value="1" />
+   <parameter name="USE_GLITCH_FREE_SWITCH_OVER_IMPLEMENTATION" value="false" />
+   <parameter name="GUI_USE_ENA" value="false" />
+   <parameter name="CLOCK_TYPE" value="1" />
+  </preset>
+ </presets>
+</ip>

@@ -1,0 +1,45 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+library WORK;
+use WORK.components.all;
+
+entity DE0_NANO is
+    port (
+        KEY : in std_logic_vector (1 downto 0);
+		  CLOCK_50 : in std_logic;
+--      instr, pc,WriteData,ReadData, UltimaMem: out std_logic_vector (31 downto 0)
+		  LED : out std_logic_vector (7 downto 0)
+    );
+end DE0_NANO;
+
+architecture arch of DE0_NANO is
+
+component mips is
+    port (
+        reset, clk, dump : in std_logic;
+        instr, pc,WriteData, ReadData, UltimaMem: out std_logic_vector (31 downto 0)
+		  );
+end component;
+
+component clkDiv IS
+	PORT
+	(
+		clock		: IN STD_LOGIC ;
+		q		: OUT STD_LOGIC_VECTOR (22 DOWNTO 0)
+	);
+END component;
+
+signal reset_s,dump_s: std_logic;
+signal instr_s,pc_s,WriteData_s,ReadData_s, UltimaMem_s: std_logic_vector(31 downto 0);
+signal clk_s : std_LOGIC_VECTOR(22 downto 0);
+
+begin
+	mips_0: mips port map (not KEY(0), clk_s(22),dump_s,instr_s,pc_s,WriteData_s,ReadData_s, UltimaMem_s);
+	clkDiv_0 : clkDiv port map (CLOCK_50, clk_s);
+
+	LED <= UltimaMem_s(7 downto 0);
+	--	reset_s <= reset;
+--	instr <= instr_s;
+--	pc <= pc_s;
+end arch;

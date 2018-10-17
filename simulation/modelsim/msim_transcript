@@ -1,0 +1,387 @@
+# do DE0_NANO_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim LE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying /home/ariel-nt/altera/14.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied /home/ariel-nt/altera/14.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/SLL2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/SLL2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity sll2
+# -- Compiling architecture behavioral of sll2
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/SIGNEXT.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/SIGNEXT.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity signext
+# -- Compiling architecture synth of signext
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/REGFILE.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/REGFILE.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity regfile
+# -- Compiling architecture synth of regfile
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/MUX64.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/MUX64.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MUX64
+# -- Compiling architecture synth of MUX64
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/mux2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/mux2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity mux2
+# -- Compiling architecture synth of mux2
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/memory.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity memory
+# -- Compiling architecture behav of memory
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/MAINDEC.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/MAINDEC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity maindec
+# -- Compiling architecture synth of maindec
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/IMEM.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/IMEM.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity imem
+# -- Compiling architecture rtl of imem
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/FLOPR.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/FLOPR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity flopr
+# -- Compiling architecture synth of flopr
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/FETCH.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/FETCH.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity fetch
+# -- Compiling architecture synth of fetch
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/EXECUTE.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/EXECUTE.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity execute
+# -- Compiling architecture synth of execute
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/dmem.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/dmem.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dmem
+# -- Compiling architecture behave of dmem
+# ** Warning: /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/dmem.vhd(46): (vcom-1194) FILE declaration was written using VHDL 1987 syntax.
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/aludec.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/aludec.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity aludec
+# -- Compiling architecture behavior of aludec
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/ALU.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity alu
+# -- Compiling architecture synth of alu
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/adder.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity adder
+# -- Compiling architecture Behavior of adder
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/clkDiv.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/clkDiv.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity clkDiv
+# -- Compiling architecture rtl of clkDiv
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/writeback.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/writeback.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity writeback
+# -- Compiling architecture behav of writeback
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity mux2
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/decode.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/decode.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity decode
+# -- Compiling architecture behav of decode
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity mux2
+# -- Loading package NUMERIC_STD
+# -- Loading entity regfile
+# -- Loading entity signext
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/controller.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/controller.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity controller
+# -- Compiling architecture cont of controller
+# -- Loading entity maindec
+# -- Loading package NUMERIC_STD
+# -- Loading entity aludec
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/datapath.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity datapath
+# -- Compiling architecture behav of datapath
+# -- Loading entity fetch
+# -- Loading entity decode
+# -- Loading package NUMERIC_STD
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity execute
+# -- Loading entity memory
+# -- Loading entity writeback
+# -- Loading entity flopr
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/processor_arm.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/processor_arm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity processor_arm
+# -- Compiling architecture behav of processor_arm
+# -- Loading entity datapath
+# -- Loading entity controller
+# -- Loading entity imem
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Loading entity dmem
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/DE0_NANO_arm.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/DE0_NANO_arm.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity DE0_NANO_arm
+# -- Compiling architecture arch of DE0_NANO_arm
+# -- Loading package NUMERIC_STD
+# -- Loading entity processor_arm
+# -- Loading entity clkDiv
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -2008 -work work {/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/testbenchs/processor_arm_tb.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 19:56:25 on Oct 17,2018
+# vcom -reportprogress 300 -2008 -work work /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/testbenchs/processor_arm_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity processor_arm_tb
+# -- Compiling architecture Behavior of processor_arm_tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity processor_arm
+# End time: 19:56:25 on Oct 17,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneive -L rtl_work -L work -voptargs="+acc"  processor_arm_tb
+# vsim -i -l msim_transcript -do "DE0_NANO_run_msim_rtl_vhdl.do" 
+# Start time: 19:56:25 on Oct 17,2018
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor_arm_tb(behavior)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.processor_arm(behav)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.datapath(behav)
+# Loading work.fetch(synth)
+# Loading work.flopr(synth)
+# Loading work.mux64(synth)
+# Loading work.adder(behavior)
+# Loading work.decode(behav)
+# Loading work.mux2(synth)
+# Loading work.regfile(synth)
+# Loading work.signext(synth)
+# Loading work.execute(synth)
+# Loading work.alu(synth)
+# Loading work.sll2(behavioral)
+# Loading work.memory(behav)
+# Loading work.writeback(behav)
+# Loading work.controller(cont)
+# Loading work.maindec(synth)
+# Loading work.aludec(behavior)
+# Loading work.imem(rtl)
+# Loading work.dmem(behave)
+# 
+# add wave *
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 1 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 2 times, errno 11
+# ** Error: Unable to lock WLF file "vsim.wlf". Retrying 3 times, errno 11
+# ** Error: Cannot lock WLF file: "vsim.wlf"
+#           errno 11: Resource temporarily unavailable.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: unknown  Hostname: arielnt  ProcessID: 8842
+#           Attempting to use alternate WLF file "./wlft91BDhy".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft91BDhy
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor_arm_tb/dut/imem_0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor_arm_tb/dut/datapath_0/decode_0/regfile_0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor_arm_tb/dut/datapath_0/decode_0/regfile_0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor_arm_tb/dut/datapath_0/decode_0/regfile_0
+# ** Note: Writing 5 In 0
+#    Time: 90 ns  Iteration: 0  Instance: /processor_arm_tb/dut/datapath_0/decode_0/regfile_0
+# ** Note: Writing 5 In 0
+#    Time: 110 ns  Iteration: 0  Instance: /processor_arm_tb/dut/datapath_0/decode_0/regfile_0
+# ** Note: Writing 3 In 2
+#    Time: 130 ns  Iteration: 0  Instance: /processor_arm_tb/dut/datapath_0/decode_0/regfile_0
+# ** Note: Writing 8 In 3
+#    Time: 210 ns  Iteration: 0  Instance: /processor_arm_tb/dut/datapath_0/decode_0/regfile_0
+# 
+# stdin: <EOF>

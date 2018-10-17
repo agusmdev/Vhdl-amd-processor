@@ -1,0 +1,29 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/hdl/sl2.vhd}
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/hdl/signext.vhd}
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/hdl/regfile.vhd}
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/hdl/mux2.vhd}
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/hdl/maindec.vhd}
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/hdl/imem.vhd}
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/hdl/flopr.vhd}
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/hdl/components.vhd}
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/hdl/aludec.vhd}
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/hdl/alu.vhd}
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/hdl/adder.vhd}
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/clkDiv.vhd}
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/hdl/fetch.vhd}
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/hdl/execute.vhd}
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/hdl/decode.vhd}
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/hdl/writeback.vhd}
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/hdl/mips.vhd}
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/hdl/memory.vhd}
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/hdl/dmem.vhd}
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/hdl/controller.vhd}
+vcom -93 -work work {/home/gvodanovic/Project/ArqComp/DE0_NANO_mips-noAlcanzanLosPines/DE0_NANO.vhd}
+

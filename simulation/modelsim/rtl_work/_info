@@ -1,0 +1,977 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/simulation/modelsim
+Eadder
+Z1 w1535740498
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/adder.vhd
+Z6 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/adder.vhd
+l0
+L7
+VWddgKZzKON2Dne<KF@LUC3
+!s100 UZal4WY3Gz@8GRklcNL`D2
+Z7 OV;C;10.3c;59
+33
+Z8 !s110 1539816985
+!i10b 1
+Z9 !s108 1539816985.587865
+Z10 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/adder.vhd|
+Z11 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/adder.vhd|
+!i113 1
+Z12 o-2008 -work work
+Z13 tExplicit 1
+Abehavior
+R2
+R3
+R4
+DEx4 work 5 adder 0 22 WddgKZzKON2Dne<KF@LUC3
+l14
+L13
+VoQ1h6>;8=hn]XQ`T133^c2
+!s100 9CFzf2AacZbbd5NZkl<<Y0
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ealu
+Z14 w1536931972
+Z15 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z16 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+R3
+R4
+R0
+Z17 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/ALU.vhd
+Z18 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/ALU.vhd
+l0
+L4
+VSJG1@O7Tfi54WzYKQ5K5V1
+!s100 RRFEQMzkR9WiDe1gUVI]@0
+R7
+33
+R8
+!i10b 1
+Z19 !s108 1539816985.551018
+Z20 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/ALU.vhd|
+Z21 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/ALU.vhd|
+!i113 1
+R12
+R13
+Asynth
+R15
+R16
+R3
+R4
+DEx4 work 3 alu 0 22 SJG1@O7Tfi54WzYKQ5K5V1
+l13
+L12
+V:Cf:`3gKiDUR3>DZ8W1Fc3
+!s100 bHUAM7EWF825C00?zcWCS0
+R7
+33
+R8
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Ealudec
+Z22 w1534959078
+R2
+R3
+R4
+R0
+Z23 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/aludec.vhd
+Z24 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/aludec.vhd
+l0
+L5
+VY>A_dQ5D9cHVa>jkk[90h3
+!s100 o6=KoEHO86XZHf0QD`Qan2
+R7
+33
+R8
+!i10b 1
+Z25 !s108 1539816985.513773
+Z26 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/aludec.vhd|
+Z27 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/aludec.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R3
+R4
+Z28 DEx4 work 6 aludec 0 22 Y>A_dQ5D9cHVa>jkk[90h3
+l14
+L13
+VO>AS>@i1mhBXP:elPgIb:1
+!s100 [>?_k[0Wk8`W<SM3?Wg4]3
+R7
+33
+R8
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R12
+R13
+Eclkdiv
+Z29 w1537555671
+R2
+R3
+R4
+R0
+Z30 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/clkDiv.vhd
+Z31 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/clkDiv.vhd
+l0
+L4
+ViAjN9>O5a6g8DPMZJ9`US0
+!s100 ob5n8@=oK@GfdJ]KYOANa2
+R7
+33
+R8
+!i10b 1
+Z32 !s108 1539816985.627521
+Z33 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/clkDiv.vhd|
+Z34 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/clkDiv.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+Z35 DEx4 work 6 clkdiv 0 22 iAjN9>O5a6g8DPMZJ9`US0
+l12
+L10
+Vk<;7DV640_iici98SN0bF2
+!s100 AlWnNe3o@n6od[m37eg?f0
+R7
+33
+R8
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R12
+R13
+Econtroller
+Z36 w1535667194
+R3
+R4
+R0
+Z37 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/controller.vhd
+Z38 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/controller.vhd
+l0
+L4
+VLbbn@b7LWHl:gW^m8_Gej1
+!s100 ggUH35[mmDWN7balGM0`60
+R7
+33
+R8
+!i10b 1
+Z39 !s108 1539816985.747803
+Z40 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/controller.vhd|
+Z41 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/controller.vhd|
+!i113 1
+R12
+R13
+Acont
+R2
+R28
+Z42 DEx4 work 7 maindec 0 22 B3CC?EO]i_hzQZ3E:YEbR3
+R3
+R4
+Z43 DEx4 work 10 controller 0 22 Lbbn@b7LWHl:gW^m8_Gej1
+l17
+L12
+V=ZgXkG7A9[Y6@T0RdC>9d2
+!s100 HA8j7biL4liYDBKj]l>3H0
+R7
+33
+R8
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R12
+R13
+Edatapath
+Z44 w1539816492
+R3
+R4
+R0
+Z45 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/datapath.vhd
+Z46 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/datapath.vhd
+l0
+L6
+VKX]d70bi1YSc`5O_O>giG0
+!s100 QoHGQUB^lz<DcY6aN^^<M2
+R7
+33
+R8
+!i10b 1
+Z47 !s108 1539816985.787665
+Z48 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/datapath.vhd|
+Z49 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/datapath.vhd|
+!i113 1
+R12
+R13
+Abehav
+Z50 DEx4 work 5 flopr 0 22 3b8A^5g_MMZjWHdaZU5:?2
+Z51 DEx4 work 9 writeback 0 22 JGVDDA<Ucdhb7:593Ho<e2
+Z52 DEx4 work 6 memory 0 22 o8^=[;ZYLl8olh`h?YO>K1
+R15
+Z53 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+Z54 DEx4 work 7 execute 0 22 iVUU4MkJJ>J[mm4Q9dXYd2
+Z55 DEx4 work 6 decode 0 22 Q@T?8j]o`BjIV6A^H0AGn2
+Z56 DEx4 work 5 fetch 0 22 JX?bYG5kRh2E[jQbJTSf13
+R3
+R4
+Z57 DEx4 work 8 datapath 0 22 KX]d70bi1YSc`5O_O>giG0
+l54
+L20
+VU=Q]=b<:?eVTZSI?4XHU@3
+!s100 bV>?@6FEN3_5bM`HSXH9b3
+R7
+33
+R8
+!i10b 1
+R47
+R48
+R49
+!i113 1
+R12
+R13
+Ede0_nano_arm
+Z58 w1537962962
+R3
+R4
+R0
+Z59 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/DE0_NANO_arm.vhd
+Z60 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/DE0_NANO_arm.vhd
+l0
+L4
+V[`=]CMjB2bh6UBi=456Gl1
+!s100 S71]Bm2R`JbQmI@L;3j3Z1
+R7
+33
+R8
+!i10b 1
+Z61 !s108 1539816985.879920
+Z62 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/DE0_NANO_arm.vhd|
+Z63 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/DE0_NANO_arm.vhd|
+!i113 1
+R12
+R13
+Aarch
+R35
+R2
+Z64 DEx4 work 13 processor_arm 0 22 `zib_aa0e<IeMP@E_Kooz2
+R3
+R4
+DEx4 work 12 de0_nano_arm 0 22 [`=]CMjB2bh6UBi=456Gl1
+l19
+L12
+V7d]l_3K]hG0boE?=@E?Fd2
+!s100 D<?Ukc^Gd3V80n5bF[YOT2
+R7
+33
+R8
+!i10b 1
+R61
+R62
+R63
+!i113 1
+R12
+R13
+Edecode
+Z65 w1539816500
+R3
+R4
+R0
+Z66 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/decode.vhd
+Z67 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/decode.vhd
+l0
+L5
+VQ@T?8j]o`BjIV6A^H0AGn2
+!s100 zR]N]kiF5a718d7B>h8PJ0
+R7
+33
+R8
+!i10b 1
+Z68 !s108 1539816985.704212
+Z69 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/decode.vhd|
+Z70 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/decode.vhd|
+!i113 1
+R12
+R13
+Abehav
+Z71 DEx4 work 7 signext 0 22 WYnf^JS1hePhT0C[NE@2<0
+R2
+Z72 DEx4 work 7 regfile 0 22 G_?I;6<RWnGMd^808fZk<3
+R53
+R16
+R15
+Z73 DEx4 work 4 mux2 0 22 c92hn77XcPE@mdlY^j>0b1
+R3
+R4
+R55
+l18
+L14
+VMlWIfQl49FC[nD>Z_M8lI3
+!s100 ldO;OBc^2@]Qe<]bBUALU1
+R7
+33
+R8
+!i10b 1
+R68
+R69
+R70
+!i113 1
+R12
+R13
+Edmem
+Z74 w1536329102
+R2
+R15
+R16
+R3
+R4
+R0
+Z75 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/dmem.vhd
+Z76 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/dmem.vhd
+l0
+L27
+VcE1z47i[B_ZEL>dEN_X:E3
+!s100 SHg`@n;S:A04V0@^QdIMS2
+R7
+33
+R8
+!i10b 1
+Z77 !s108 1539816985.470853
+Z78 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/dmem.vhd|
+Z79 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/dmem.vhd|
+!i113 1
+R12
+R13
+Abehave
+R2
+R15
+R16
+R3
+R4
+Z80 DEx4 work 4 dmem 0 22 cE1z47i[B_ZEL>dEN_X:E3
+l63
+L37
+VmSfGo=M8V01473L8ee3@71
+!s100 4`I<?PnWaK6]4m[O<NXkR1
+R7
+33
+R8
+!i10b 1
+R77
+R78
+R79
+!i113 1
+R12
+R13
+Eexecute
+Z81 w1538569516
+R15
+R53
+R2
+R3
+R4
+R0
+Z82 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/EXECUTE.vhd
+Z83 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/EXECUTE.vhd
+l0
+L6
+ViVUU4MkJJ>J[mm4Q9dXYd2
+!s100 W:KDTN6kczYEGWJ=FIj8[0
+R7
+33
+R8
+!i10b 1
+Z84 !s108 1539816985.430356
+Z85 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/EXECUTE.vhd|
+Z86 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/EXECUTE.vhd|
+!i113 1
+R12
+R13
+Asynth
+R15
+R53
+R2
+R3
+R4
+R54
+l50
+L19
+V7oU562ASkiCm>k25JK9_<1
+!s100 1nD_eRJ1<0I[kkjFL9^A?3
+R7
+33
+R8
+!i10b 1
+R84
+R85
+R86
+!i113 1
+R12
+R13
+Efetch
+Z87 w1538569466
+R3
+R4
+R0
+Z88 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/FETCH.vhd
+Z89 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/FETCH.vhd
+l0
+L4
+VJX?bYG5kRh2E[jQbJTSf13
+!s100 3`el3_`OKCgG:Wh9goF4H1
+R7
+33
+R8
+!i10b 1
+Z90 !s108 1539816985.396841
+Z91 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/FETCH.vhd|
+Z92 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/FETCH.vhd|
+!i113 1
+R12
+R13
+Asynth
+R3
+R4
+R56
+l36
+L12
+V8k5zYW=I9aHRRGG;0Mn=00
+!s100 ;]lTnAE4Y`fhk^Y]1Ffn^2
+R7
+33
+R8
+!i10b 1
+R90
+R91
+R92
+!i113 1
+R12
+R13
+Eflopr
+Z93 w1536928478
+R3
+R4
+R0
+Z94 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/FLOPR.vhd
+Z95 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/FLOPR.vhd
+l0
+L3
+V3b8A^5g_MMZjWHdaZU5:?2
+!s100 coi0;F5S4c54H>lT0@bll2
+R7
+33
+R8
+!i10b 1
+Z96 !s108 1539816985.363738
+Z97 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/FLOPR.vhd|
+Z98 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/FLOPR.vhd|
+!i113 1
+R12
+R13
+Asynth
+R3
+R4
+R50
+l10
+L9
+VlJSi3ejzdn@9h;>Ociz@P1
+!s100 6nHA=;TX_h;Z0bl@@1c]_0
+R7
+33
+R8
+!i10b 1
+R96
+R97
+R98
+!i113 1
+R12
+R13
+Eimem
+Z99 w1539816901
+R2
+R3
+R4
+R0
+Z100 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/IMEM.vhd
+Z101 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/IMEM.vhd
+l0
+L8
+V?TdQzbn;VgH_UPA3E2dI<0
+!s100 D3[XLAa20J9B=6^?8nMQ32
+R7
+33
+R8
+!i10b 1
+Z102 !s108 1539816985.326862
+Z103 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/IMEM.vhd|
+Z104 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/IMEM.vhd|
+!i113 1
+R12
+R13
+Artl
+R2
+R3
+R4
+Z105 DEx4 work 4 imem 0 22 ?TdQzbn;VgH_UPA3E2dI<0
+l31
+L18
+V=2@5eA1[SgN;ZO0lO5k`61
+!s100 a:WAjBIIjOH`iY5z?43:U0
+R7
+33
+R8
+!i10b 1
+R102
+R103
+R104
+!i113 1
+R12
+R13
+Emaindec
+Z106 w1536765442
+R3
+R4
+R0
+Z107 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/MAINDEC.vhd
+Z108 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/MAINDEC.vhd
+l0
+L3
+VB3CC?EO]i_hzQZ3E:YEbR3
+!s100 ?fJ<bUiYaI[ScSJW7>lzC3
+R7
+33
+R8
+!i10b 1
+Z109 !s108 1539816985.292635
+Z110 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/MAINDEC.vhd|
+Z111 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/MAINDEC.vhd|
+!i113 1
+R12
+R13
+Asynth
+R3
+R4
+R42
+l10
+L9
+Vb2]^Tk5IJmA9zBiODonHi3
+!s100 `Pe3;BE:b64defL`NPiRO1
+R7
+33
+R8
+!i10b 1
+R109
+R110
+R111
+!i113 1
+R12
+R13
+Ememory
+Z112 w1536153528
+R3
+R4
+R0
+Z113 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/memory.vhd
+Z114 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/memory.vhd
+l0
+L4
+Vo8^=[;ZYLl8olh`h?YO>K1
+!s100 Q<4hJ:Sb?4EbmXV;LhW4<3
+R7
+33
+R8
+!i10b 1
+Z115 !s108 1539816985.240232
+Z116 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/memory.vhd|
+Z117 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/memory.vhd|
+!i113 1
+R12
+R13
+Abehav
+R3
+R4
+R52
+l13
+L11
+VgY_E82g<a7>L_i6^ZHTHE0
+!s100 Y:Mh<UC_Rm]KiM7G:DD250
+R7
+33
+R8
+!i10b 1
+R115
+R116
+R117
+!i113 1
+R12
+R13
+Emux2
+Z118 w1535740458
+R53
+R16
+R15
+R3
+R4
+R0
+Z119 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/mux2.vhd
+Z120 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/mux2.vhd
+l0
+L7
+Vc92hn77XcPE@mdlY^j>0b1
+!s100 Hjb^MzS3Az`5C^P^XiaLH3
+R7
+33
+R8
+!i10b 1
+Z121 !s108 1539816985.203732
+Z122 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/mux2.vhd|
+Z123 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/mux2.vhd|
+!i113 1
+R12
+R13
+Asynth
+R53
+R16
+R15
+R3
+R4
+R73
+l15
+L14
+VdUZ==5ae[45jdg=9Q>F;60
+!s100 BYJ14jTa`P^EViY2P=CbI3
+R7
+33
+R8
+!i10b 1
+R121
+R122
+R123
+!i113 1
+R12
+R13
+Emux64
+Z124 w1536927448
+R3
+R4
+R0
+Z125 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/MUX64.vhd
+Z126 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/MUX64.vhd
+l0
+L4
+V^PiS5l9OPcRz7UAQ=9eoa0
+!s100 mkRHg;`]QNAg4>I_5:MY?0
+R7
+33
+R8
+!i10b 1
+Z127 !s108 1539816985.170139
+Z128 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/MUX64.vhd|
+Z129 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/MUX64.vhd|
+!i113 1
+R12
+R13
+Asynth
+R3
+R4
+DEx4 work 5 mux64 0 22 ^PiS5l9OPcRz7UAQ=9eoa0
+l12
+L11
+VQP@C[Lo0e[2k[h][lD>^o1
+!s100 d018Bd<ZgWDP_85W8PfF_0
+R7
+33
+R8
+!i10b 1
+R127
+R128
+R129
+!i113 1
+R12
+R13
+Eprocessor_arm
+Z130 w1539815339
+R2
+R3
+R4
+R0
+Z131 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/processor_arm.vhd
+Z132 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/processor_arm.vhd
+l0
+L7
+V`zib_aa0e<IeMP@E_Kooz2
+!s100 ^e;@]C=LjaJR7MkOm><JS0
+R7
+33
+R8
+!i10b 1
+Z133 !s108 1539816985.834857
+Z134 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/processor_arm.vhd|
+Z135 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/processor_arm.vhd|
+!i113 1
+R12
+R13
+Abehav
+R15
+R16
+R80
+R105
+R43
+R57
+R2
+R3
+R4
+R64
+l26
+L17
+V@]DOKZJ>gc?aA;3:dXRMF0
+!s100 H17Jl:bkmHA2Of6i4=Ua63
+R7
+33
+R8
+!i10b 1
+R133
+R134
+R135
+!i113 1
+R12
+R13
+Eprocessor_arm_tb
+Z136 w1539816958
+R3
+R4
+R0
+Z137 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/testbenchs/processor_arm_tb.vhd
+Z138 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/testbenchs/processor_arm_tb.vhd
+l0
+L4
+VLZ^0BoLKlZ1E:BMh`PmUl2
+!s100 3igcI>[OTULZFI9^fXakA0
+R7
+33
+R8
+!i10b 1
+Z139 !s108 1539816985.920036
+Z140 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/testbenchs/processor_arm_tb.vhd|
+Z141 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/testbenchs/processor_arm_tb.vhd|
+!i113 1
+R12
+R13
+Abehavior
+R2
+R64
+R3
+R4
+DEx4 work 16 processor_arm_tb 0 22 LZ^0BoLKlZ1E:BMh`PmUl2
+l18
+L7
+VzWc5e_]2dEgQb[^Ma^3Oo3
+!s100 Ozb?dU6eBU@Z?h7]e@a`W2
+R7
+33
+R8
+!i10b 1
+R139
+R140
+R141
+!i113 1
+R12
+R13
+Eregfile
+Z142 w1539816875
+R2
+R3
+R4
+R0
+Z143 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/REGFILE.vhd
+Z144 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/REGFILE.vhd
+l0
+L4
+VG_?I;6<RWnGMd^808fZk<3
+!s100 obfa:89YgZeO2H4nhQbKF1
+R7
+33
+R8
+!i10b 1
+Z145 !s108 1539816985.131259
+Z146 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/REGFILE.vhd|
+Z147 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/REGFILE.vhd|
+!i113 1
+R12
+R13
+Asynth
+R2
+R3
+R4
+R72
+l31
+L11
+VJCgDd8<U0z?^5SKgj>P880
+!s100 g?8Ldo00z:2XzAzc`BMgZ1
+R7
+33
+R8
+!i10b 1
+R145
+R146
+R147
+!i113 1
+R12
+R13
+Esignext
+Z148 w1536758170
+R3
+R4
+R0
+Z149 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/SIGNEXT.vhd
+Z150 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/SIGNEXT.vhd
+l0
+L3
+VWYnf^JS1hePhT0C[NE@2<0
+!s100 ?DT>_[PBHez<HAc317F^13
+R7
+33
+R8
+!i10b 1
+Z151 !s108 1539816985.099274
+Z152 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/SIGNEXT.vhd|
+Z153 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/SIGNEXT.vhd|
+!i113 1
+R12
+R13
+Asynth
+R3
+R4
+R71
+l9
+L8
+VfV_XbjPco?loB5PKTA94C0
+!s100 gf_cI^lSm4mOTOzYHZ4oV1
+R7
+33
+R8
+!i10b 1
+R151
+R152
+R153
+!i113 1
+R12
+R13
+Esll2
+Z154 w1536932960
+R2
+R3
+R4
+R0
+Z155 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/SLL2.vhd
+Z156 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/SLL2.vhd
+l0
+L5
+VYiWzT?i`QF8S[SbNFGb`M0
+!s100 ]XPo?5L;>ha?lIoFZ<a_90
+R7
+33
+R8
+!i10b 1
+Z157 !s108 1539816985.062812
+Z158 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/SLL2.vhd|
+Z159 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/SLL2.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 4 sll2 0 22 YiWzT?i`QF8S[SbNFGb`M0
+l13
+L12
+V:Wog`Rf=IQW3=FeSb>ciX1
+!s100 eo0l@iUlc^N_F;VB5:0B50
+R7
+33
+R8
+!i10b 1
+R157
+R158
+R159
+!i113 1
+R12
+R13
+Ewriteback
+Z160 w1536327746
+R3
+R4
+R0
+Z161 8/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/writeback.vhd
+Z162 F/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/writeback.vhd
+l0
+L4
+VJGVDDA<Ucdhb7:593Ho<e2
+!s100 g@Q90CEbn16SP>8>kgCAg0
+R7
+33
+R8
+!i10b 1
+Z163 !s108 1539816985.665249
+Z164 !s90 -reportprogress|300|-2008|-work|work|/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/writeback.vhd|
+Z165 !s107 /home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/writeback.vhd|
+!i113 1
+R12
+R13
+Abehav
+R53
+R16
+R15
+R73
+R3
+R4
+R51
+l14
+L12
+VXhMc_BI3zJc2Y>?@d6Q>i3
+!s100 TkC@HKWz_;njdeLebMQ;?3
+R7
+33
+R8
+!i10b 1
+R163
+R164
+R165
+!i113 1
+R12
+R13
