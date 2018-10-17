@@ -75,6 +75,7 @@ begin
 		clk => clk,
 		writeData3_D => writeData_D,
 		instr_D => IM_readData,
+		wa3_D => MEMWB_instr,
 		signImm_D => signImm,
 		readData1_D => readData1,
 		readData2_D => readData2	
