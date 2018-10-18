@@ -37,8 +37,11 @@ begin
     & integer'image(to_integer(unsigned(wa3)));
 		reg_bank(to_integer(unsigned(wa3))) <= wd3;
 	end if;
-	rd1 <= reg_bank(to_integer(unsigned(ra1)));
-	rd2 <= reg_bank(to_integer(unsigned(ra2)));
-
+	--rd1 <= reg_bank(to_integer(unsigned(ra1)));
+	--rd2 <= reg_bank(to_integer(unsigned(ra2)));
 	end process;
+
+  rd1 <= wd3 when (wa3 = ra1 and we3='1') else reg_bank(to_integer(unsigned(ra1)));
+  rd2 <= wd3 when (wa3 = ra2 and we3='1') else reg_bank(to_integer(unsigned(ra2)));
+
 end synth;
