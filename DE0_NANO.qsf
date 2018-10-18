@@ -405,8 +405,6 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPIO_1_D[33]
 set_global_assignment -name EDA_TEST_BENCH_NAME DE0_NANO_arm_tb -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id DE0_NANO_arm_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME DE0_NANO_arm_tb -section_id DE0_NANO_arm_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE testbenchs/processor_arm_tb.vhd -section_id processor_arm_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE testbenchs/DE0_NANO_arm_tb.vhd -section_id DE0_NANO_arm_tb
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
@@ -434,4 +432,6 @@ set_global_assignment -name VHDL_FILE components/adder.vhd
 set_global_assignment -name VHDL_FILE DE0_NANO_arm.vhd
 set_global_assignment -name VHDL_FILE testbenchs/DE0_NANO_arm_tb.vhd
 set_global_assignment -name VHDL_FILE components/clkDiv.vhd
+set_global_assignment -name EDA_TEST_BENCH_FILE testbenchs/processor_arm_tb.vhd -section_id processor_arm_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE testbenchs/DE0_NANO_arm_tb.vhd -section_id DE0_NANO_arm_tb
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

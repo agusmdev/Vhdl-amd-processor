@@ -5,7 +5,7 @@ entity controller is
 port (
         instr : in std_logic_vector(10 downto 0);
         AluControl : out std_logic_vector(3 downto 0);
-        reg2loc, regWrite, AluSrc, Branch,  memtoReg, memRead, memWrite : out std_logic
+        nonzBr, reg2loc, regWrite, AluSrc, Branch,  memtoReg, memRead, memWrite : out std_logic
      );
 end entity;
 
@@ -26,7 +26,8 @@ maindec_0: entity work.maindec
 	 MemRead => MemRead,
 	 MemWrite => MemWrite,
 	 Branch => Branch,
-    AluOp => aluop
+    AluOp => aluop,
+    nonzBr => nonzBr
    );
 
 aludec_0: entity work.aludec

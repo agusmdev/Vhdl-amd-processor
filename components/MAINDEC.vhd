@@ -6,7 +6,7 @@ use ieee.numeric_std.all;
 
 entity maindec is
 	port(Op: in std_logic_vector(10 downto 0);
-	Reg2Loc,ALUSrc,MemtoReg,RegWrite,MemRead,MemWrite,Branch: out STD_LOGIC;
+	nonzBr, Reg2Loc,ALUSrc,MemtoReg,RegWrite,MemRead,MemWrite,Branch: out STD_LOGIC;
 	AluOp : out std_logic_vector( 1 downto 0 )
 	);
 end;
@@ -24,6 +24,7 @@ begin
 		MemRead	<='0';
 		MemWrite	<='0';
 		Branch	<='0';
+    nonzBr <= '0';
 		Aluop		<="10";
   elsif(op(10 downto 1) = "1001000100") then
     --addi
@@ -35,6 +36,7 @@ begin
     MemRead <='0';
     MemWrite  <='0';
     Branch  <='0';
+    nonzBr <= '0';
     Aluop   <="10";
 	elsif(op = "11111000010")then
 	--ldur
@@ -46,6 +48,7 @@ begin
 		MemRead	<='1';
 		MemWrite	<='0';
 		Branch	<='0';
+    nonzBr <= '0';
 		Aluop		<="00";
 	elsif(op = "11111000000" ) then
 	--stur
@@ -57,8 +60,9 @@ begin
 		MemRead	<='0';
 		MemWrite	<='1';
 		Branch	<='0';
+    nonzBr <= '0';
 		Aluop		<="00";
-  elsif (op = "00000000000") then
+  elsif (op = "00000000000" or op = "11010101000") then
   --Nop
   report("Executing NOP");
     Reg2Loc   <='0';
@@ -68,7 +72,20 @@ begin
     MemRead <='0';
     MemWrite  <='0';
     Branch  <='0';
+    nonzBr <= '0';
     Aluop   <="00";
+  elsif (op(10 downto 3) = "10110101") then
+  --cbnz
+  report("Executing CBNZ");
+  Reg2Loc   <='1';
+  ALUSrc  <='0';
+  MemtoReg <='0';
+  RegWrite  <='0';
+  MemRead <='0';
+  MemWrite  <='0';
+  Branch  <='1';
+  nonzBr <= '1';
+  Aluop   <="01";
 	else
 	--cbz
     report("Executing CBZ");
@@ -79,6 +96,7 @@ begin
 		MemRead	<='0';
 		MemWrite	<='0';
 		Branch	<='1';
+    nonzBr <= '0';
 		Aluop		<="01";
 	end if;
 	end process;

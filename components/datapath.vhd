@@ -7,12 +7,12 @@ entity datapath is
    generic (N: integer := 64);
     port (
          reset, clk :in  std_logic;
-         reg2loc, regWrite, AluSrc, Branch,  memtoReg, memRead, memWrite: in std_logic;
+         nonzBr, reg2loc, regWrite, AluSrc, Branch,  memtoReg, memRead, memWrite: in std_logic;
          AluControl : in std_logic_vector (3 downto 0);
       IM_readData : in std_logic_vector (31 downto 0);
       DM_readData: in std_logic_vector (N-1 downto 0);
       IM_addr,DM_addr, DM_writeData: out std_logic_vector (N-1 downto 0);
-         DM_writeEnable : out std_logic
+         DM_writeEnable, DM_readEnable : out std_logic
        );
 end entity;
 
@@ -27,7 +27,7 @@ signal readData1,readData2, aluResult,writeData_E : std_logic_vector(N-1 downto 
 signal IFID_IM_readData_s : std_logic_vector (31 downto 0);
 signal IFID_IM_addr_s : std_logic_vector (N-1 downto 0);
 -- ID_EX
-signal IDEX_reg2loc, IDEX_regWrite, IDEX_AluSrc, IDEX_Branch,
+signal IDEX_nonzBr, IDEX_reg2loc, IDEX_regWrite, IDEX_AluSrc, IDEX_Branch,
      IDEX_memtoReg, IDEX_memRead, IDEX_memWrite: std_logic;
 signal  IDEX_AluControl : std_logic_vector (3 downto 0);
 signal  IDEX_instr : std_logic_vector (4 downto 0);
@@ -36,7 +36,7 @@ signal  IDEX_readData2_E,
         IDEX_signImm_E,
         IDEX_PC_E : std_logic_vector (n-1 downto 0);
 -- EX_MEM
-signal EXMEM_reg2loc, EXMEM_regWrite, EXMEM_Branch,
+signal EXMEM_nonzBr, EXMEM_reg2loc, EXMEM_regWrite, EXMEM_Branch,
      EXMEM_memtoReg, EXMEM_memRead, EXMEM_memWrite: std_logic;
 signal  EXMEM_writeData_E,
         EXMEM_aluResult_E,
@@ -102,10 +102,12 @@ begin
 DM_addr <= EXMEM_aluResult_E;
 DM_writeData <= EXMEM_writeData_E;
 DM_writeEnable <= EXMEM_memWrite;
+DM_readEnable <= EXMEM_memRead;
 DM_readData_s <= DM_readData;
 memory_0: entity work.memory
     port map (
    Branch => EXMEM_Branch,
+   nonzBr => EXMEM_nonzBr,
    zero => EXMEM_zero_E,
     PCSrc => PCSrc
    );
@@ -134,7 +136,7 @@ IF_ID: entity work.flopr
 
 ID_EX: entity work.flopr
   generic map(
-    N => 271)
+    N => 272)
   port map (
     d(4 downto 0) => IFID_IM_readData_s(4 downto 0),
     d(68 downto 5) => readData2,
@@ -148,6 +150,7 @@ ID_EX: entity work.flopr
     d(265) => Branch,
     d(269 downto 266) => aluControl,
     d(270) => aluSrc,
+    d(271) => nonzBr,
     clk => clk,
     reset => reset,
     q(4 downto 0) => IDEX_instr,
@@ -161,12 +164,13 @@ ID_EX: entity work.flopr
     q(264) => IDEX_memRead,
     q(265) => IDEX_Branch,
     q(269 downto 266) => IDEX_aluControl,
-    q(270) => IDEX_aluSrc
+    q(270) => IDEX_aluSrc,
+    q(271) => IDEX_nonzBr
   );
 
   EX_MEM: entity work.flopr
   generic map(
-    N => 203)
+    N => 204)
   port map (
     d(4 downto 0) => IDEX_instr,
     d(68 downto 5) => writeData_E,
@@ -178,6 +182,7 @@ ID_EX: entity work.flopr
     d(200) => IDEX_memWrite,
     d(201) => IDEX_memRead,
     d(202) => IDEX_Branch,
+    d(203) => IDEX_nonzBr,
     clk => clk,
     reset => reset,
     q(4 downto 0) => EXMEM_instr,
@@ -189,7 +194,8 @@ ID_EX: entity work.flopr
     q(199) => EXMEM_regWrite,
     q(200) => EXMEM_memWrite,
     q(201) => EXMEM_memRead,
-    q(202) => EXMEM_Branch
+    q(202) => EXMEM_Branch,
+    q(203) => EXMEM_nonzBr
   );
 
 
