@@ -26,7 +26,7 @@ begin
 		KEY(0) <= '0';  -- reset
 		wait for CLK_PERIOD;
 		KEY(0) <= '1';
-		wait for CLK_PERIOD*7;
+		wait for CLK_PERIOD*8;
 		finish <= '1';
 		wait;
 	end process;

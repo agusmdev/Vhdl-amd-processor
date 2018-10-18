@@ -26,7 +26,7 @@ architecture rtl of imem is
 	--signal ROM : memory_t:=	(x"f8000000", x"f8008001", x"f8010002", x"f8018003", x"f8020004", x"f8028005",x"f8030006",
 	--								 x"f8400007", x"f8408008", x"f8410009",x"f841800a", x"f842000b", x"f842800c", x"f843000d",
 	--								 x"cb0e01ce", x"b400004e", x"cb01000f", x"8b01000f",		x"f803800f", others => x"00000000");
-  signal ROM : memory_t:= (x"8b030040", x"8b030042", x"d503201f", x"d503201f", x"d503201f", x"8b030043", others => x"00000000");
+  signal ROM : memory_t:= (x"8b030043", x"9103fc40", others => x"00000000");
 
 begin
 		q <= ROM(63-to_integer(unsigned(addr)));

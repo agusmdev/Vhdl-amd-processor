@@ -61,7 +61,7 @@ begin
     PCSrc_F => PCSrc,
     clk => clk,
     reset => reset,
-    PCBranch_F => PCBranch,
+    PCBranch_F => EXMEM_PCBranch_E,
     imem_addr_F => PC
   );
 
@@ -74,7 +74,7 @@ begin
     reg2loc_D => reg2loc,
     clk => clk,
     writeData3_D => writeData_D,
-    instr_D => IM_readData,
+    instr_D => IFID_IM_readData_s,
     wa3_D => MEMWB_instr,
     signImm_D => signImm,
     readData1_D => readData1,

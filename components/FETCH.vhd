@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 
-entity fetch is 
+entity fetch is
 			generic (N : integer:=64);
 PORT (reset, clk,PCSrc_F: IN STD_LOGIC;
 		PCbranch_F: in std_logic_vector (N-1 downto 0);
@@ -14,20 +14,20 @@ signal PCplus4: std_logic_vector(N-1 downto 0);
 signal PC: std_logic_vector(N-1 downto 0);
 signal PCnext : std_logic_vector(N-1 downto 0);
 
-component mux64 is 
+component mux64 is
 PORT (d0, d1: in std_logic_vector(N-1 downto 0);
 s : in std_LOGIC;
 y : OUT std_logic_vector(N-1 downto 0));
 end component;
 
 
-component flopr is 
+component flopr is
 PORT (clk,reset : IN STD_LOGIC;
 d : in std_logic_vector(N-1 downto 0);
 q : OUT std_logic_vector(N-1 downto 0));
 end component;
 
-component adder is 
+component adder is
 PORT (
 A : in std_logic_vector(N-1 downto 0);
 B : in std_logic_vector(N-1 downto 0);

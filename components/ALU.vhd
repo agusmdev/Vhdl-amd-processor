@@ -10,12 +10,12 @@ entity alu is
 end;
 
 architecture synth of alu is
-begin 
+begin
 	process(a,b,ALUcontrol)
 	variable res: std_logic_vector(63 downto 0);
 	variable z: std_logic_vector(63 downto 0);
 	begin
-	
+
 	case ALUcontrol is
 		when "0000"=> res := a and b;
 		when "0001"=> res := a or b;
@@ -25,9 +25,9 @@ begin
 		when "1100"=> res := a nor b;
 		when others => res := (others => '0');
 	end case;
-	
+
 	z := (others => '0');
-	if (res = z) then 
+	if (res = z) then
 		zero <= '1';
 	else
 		zero <= '0';

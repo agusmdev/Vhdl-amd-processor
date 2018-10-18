@@ -3,7 +3,7 @@ use IEEE.STD_LOGIC_1164.all;
 use ieee.numeric_std.all;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
-entity execute is 
+entity execute is
 generic (N : integer:=64);
 PORT (aluSrc: in std_logic;
 		aluControl:in std_logic_vector(3 downto 0);
@@ -20,19 +20,19 @@ architecture synth of execute is
 signal SrcB_add: std_logic_vector(N-1 downto 0);
 signal SrcB_alu: std_logic_vector(N-1 downto 0);
 
-component mux64 is 
+component mux64 is
 PORT (d0, d1: in std_logic_vector(N-1 downto 0);
 s : in std_LOGIC;
 y : OUT std_logic_vector(N-1 downto 0));
 end component;
 
-component sll2 is 
+component sll2 is
 port (Din: in std_logic_vector(N-1 downto 0);
       Dout: out std_logic_vector(N-1 downto 0));
 end component;
 
 
-component alu is 
+component alu is
 PORT (ALUcontrol: in std_logic_vector (3 downto 0);
 		a,b: in std_logic_vector(N-1 downto 0);
 		result: out std_logic_vector(N-1 downto 0);
@@ -40,7 +40,7 @@ PORT (ALUcontrol: in std_logic_vector (3 downto 0);
 	);
 end component;
 
-component adder is 
+component adder is
 PORT (
 A : in std_logic_vector(N-1 downto 0);
 b : in std_logic_vector(N-1 downto 0);
