@@ -9,9 +9,9 @@ entity datapath is
          reset, clk :in  std_logic;
          nonzBr, reg2loc, regWrite, AluSrc, Branch,  memtoReg, memRead, memWrite: in std_logic;
          AluControl : in std_logic_vector (3 downto 0);
-      IM_readData : in std_logic_vector (31 downto 0);
-      DM_readData: in std_logic_vector (N-1 downto 0);
-      IM_addr,DM_addr, DM_writeData: out std_logic_vector (N-1 downto 0);
+         IM_readData : in std_logic_vector (31 downto 0);
+         DM_readData: in std_logic_vector (N-1 downto 0);
+         IM_addr,DM_addr, DM_writeData: out std_logic_vector (N-1 downto 0);
          DM_writeEnable, DM_readEnable : out std_logic
        );
 end entity;
@@ -49,10 +49,21 @@ signal  MEMWB_readData,
         MEMWB_aluresult_E: std_logic_vector(n-1 downto 0);
 signal  MEMWB_memtoReg,
         MEMWB_regWrite: std_logic;
-
-
+--Hazard unit
+signal IFID_enable, PC_write: std_logic;
+signal hazard_instruction_addr: std_logic_vector(n-1 downto 0);
+signal control_signals: std_logic_vector(11 downto 1);
+signal new_control: std_logic_vector(11 downto 1);
 begin
-
+--control
+    control_signals(1) <= memtoReg;
+    control_signals(2) <= regWrite;
+    control_signals(3) <= memWrite;
+    control_signals(4) <= memRead;
+    control_signals(5) <= Branch;
+    control_signals(9 downto 6) <= aluControl;
+    control_signals(10) <= aluSrc;
+    control_signals(11) <= nonzBr;
 -- Fetch inst
   fetch_0: entity work.fetch
   generic map (
@@ -61,6 +72,7 @@ begin
     PCSrc_F => PCSrc,
     clk => clk,
     reset => reset,
+    IFID_enable => IFID_enable,
     PCBranch_F => EXMEM_PCBranch_E,
     imem_addr_F => PC
   );
@@ -122,7 +134,7 @@ writeback_0: entity work.writeback
     writeData => writeData_D
    );
 
-IF_ID: entity work.flopr
+IF_ID: entity work.flopre
   generic map(
     N => 96)
   port map (
@@ -130,6 +142,7 @@ IF_ID: entity work.flopr
     d(31 downto 0) => IM_readData,
     clk => clk,
     reset => reset,
+    enable => IFID_enable,
     q(31 downto 0) => IFID_IM_readData_s,
     q(95 downto 32) => IFID_IM_addr_s
   );
@@ -143,14 +156,14 @@ ID_EX: entity work.flopr
     d(132 downto 69) => readData1,
     d(196 downto 133) => signImm,
     d(260 downto 197) => IFID_IM_addr_s,
-    d(261) => memtoReg,
-    d(262) => regWrite,
-    d(263) => memWrite,
-    d(264) => memRead,
-    d(265) => Branch,
-    d(269 downto 266) => aluControl,
-    d(270) => aluSrc,
-    d(271) => nonzBr,
+    d(261) => new_control (1),
+    d(262) => new_control (2),
+    d(263) => new_control (3),
+    d(264) => new_control (4),
+    d(265) => new_control (5),
+    d(269 downto 266) => new_control  (9 downto 6),
+    d(270) => new_control (10),
+    d(271) => new_control (11),
     clk => clk,
     reset => reset,
     q(4 downto 0) => IDEX_instr,
@@ -217,6 +230,26 @@ MEM_WB: entity work.flopr
     q(134) => MEMWB_regWrite
   );
 
+  hazard_unit: entity work.hazard_detection_unit
+  generic map(
+    N => 32)
+  port map (
+      ID_EX_MemRead => IDEX_memRead,
+      ID_EX_RegisterRt => IDEX_instr,
+      IF_ID_RegisterRs => IFID_IM_readData_s(9 downto 5),
+      IF_ID_RegisterRt => IFID_IM_readData_s(20 downto 16),
+      enable => IFID_enable      
+  );
+
+  control_mux: entity work.mux2
+  generic map(
+    N => 11)
+  port map (
+      d0 => "00000000000",
+      d1 => control_signals,
+      s => IFID_enable,
+      y => new_control 
+  );
 
 -- Other
 IM_addr <= PC;
