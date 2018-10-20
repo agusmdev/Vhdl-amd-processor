@@ -23,13 +23,13 @@ architecture rtl of imem is
 	-- Declare the ROM signal and specify a default value.	Quartus II
 	-- will create a memory initialization file (.mif) based on the
 	-- default value.
-	signal ROM : memory_t:=	(x"f8000000", x"f8008001", x"f8010002", x"f8018003", x"f8020004", x"f8028005",x"f8030006",
-									 x"f8400007", x"f8408008", x"f8410009",x"f841800a", x"f842000b", x"f842800c", x"f843000d",
-									 x"cb0e01ce", x"b40000Ae", x"00000000", x"00000000", x"00000000", x"cb01000f", x"8b01000f",		x"f803800f", others => x"00000000");
+	--signal ROM : memory_t:=	(x"f8000000", x"f8008001", x"f8010002", x"f8018003", x"f8020004", x"f8028005",x"f8030006",
+	--								 x"f8400007", x"f8408008", x"f8410009",x"f841800a", x"f842000b", x"f842800c", x"f843000d",
+	--								 x"cb0e01ce", x"b40000Ae", x"00000000", x"00000000", x"00000000", x"cb01000f", x"8b01000f",		x"f803800f", others => x"00000000");
   --signal ROM : memory_t:= (x"91003c0a", x"aa14018b", x"8a14018c", x"8b0a0000",
   --                         x"cb01014a", x"F80003EB", x"F80083EC", x"b5ffff8a",
   --                         x"F80103E0", others => x"00000000");
-  --signal ROM : memory_t := (x"91003c01", x"f8010001", x"f8410002", others => x"00000000");
+  signal ROM : memory_t := (x"8b030061", x"8b010003", others => x"00000000");
 
 begin
 		q <= ROM(63-to_integer(unsigned(addr)));

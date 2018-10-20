@@ -8,6 +8,7 @@ entity decode is
         writeData3_D: in std_logic_vector(N-1 downto 0);
           instr_D: in std_logic_vector(31 downto 0);
       wa3_D: in std_logic_vector(4 downto 0);
+      reg_rn: out std_logic_vector(4 downto 0);
         signImm_D, readData1_D, readData2_D: out std_logic_vector(N-1 downto 0));
 end entity;
 
@@ -35,5 +36,5 @@ begin
     signext_0: entity work.signext port map(
                     a => instr_D,
                     y => signImm_D);
-
+    reg_rn <= readAddr2;
 end architecture;

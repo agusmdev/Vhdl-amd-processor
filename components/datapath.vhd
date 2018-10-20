@@ -51,9 +51,10 @@ signal  MEMWB_memtoReg,
         MEMWB_regWrite: std_logic;
 --Hazard unit
 signal IFID_enable, PC_write: std_logic;
-signal hazard_instruction_addr: std_logic_vector(n-1 downto 0);
+signal reg_rn_s: std_logic_vector(4 downto 0);
 signal control_signals: std_logic_vector(11 downto 1);
 signal new_control: std_logic_vector(11 downto 1);
+
 begin
 --control
     control_signals(1) <= memtoReg;
@@ -90,7 +91,8 @@ begin
     wa3_D => MEMWB_instr,
     signImm_D => signImm,
     readData1_D => readData1,
-    readData2_D => readData2
+    readData2_D => readData2,
+    reg_rn => reg_rn_s
   );
 
 -- Excecute
@@ -234,11 +236,18 @@ MEM_WB: entity work.flopr
   generic map(
     N => 32)
   port map (
-      ID_EX_MemRead => IDEX_memRead,
-      ID_EX_RegisterRt => IDEX_instr,
-      IF_ID_RegisterRs => IFID_IM_readData_s(9 downto 5),
-      IF_ID_RegisterRt => IFID_IM_readData_s(20 downto 16),
-      enable => IFID_enable      
+      ID_EX_MemRead => IDEX_memWrite,
+      ID_EX_RegWrite => IDEX_regWrite,
+      EX_MEM_MemRead => EXMEM_memRead,
+      EX_MEM_RegWrite => EXMEM_regWrite,
+      IF_ID_branch => new_control(5),
+      IF_ID_RegisterRm => reg_rn_s,
+      IF_ID_RegisterRd => IFID_IM_readData_s(4 downto 0),
+      IF_ID_RegisterRn => IFID_IM_readData_s(9 downto 5),
+      ID_EX_RegisterRd => IDEX_instr,
+      EX_MEM_RegisterRd => EXMEM_instr,
+      clk => clk,
+      enable => IFID_enable
   );
 
   control_mux: entity work.mux2
