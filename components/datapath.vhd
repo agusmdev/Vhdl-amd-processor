@@ -50,7 +50,7 @@ signal  MEMWB_readData,
 signal  MEMWB_memtoReg,
         MEMWB_regWrite: std_logic;
 --Hazard unit
-signal IFID_enable, PC_write: std_logic;
+signal IFID_enable: std_logic;
 signal reg_rn_s: std_logic_vector(4 downto 0);
 signal control_signals: std_logic_vector(11 downto 1);
 signal new_control: std_logic_vector(11 downto 1);
@@ -136,7 +136,7 @@ writeback_0: entity work.writeback
     writeData => writeData_D
    );
 
-IF_ID: entity work.flopre
+IF_ID: entity work.flopr
   generic map(
     N => 96)
   port map (
@@ -144,7 +144,7 @@ IF_ID: entity work.flopre
     d(31 downto 0) => IM_readData,
     clk => clk,
     reset => reset,
-    enable => IFID_enable,
+    --enable => IFID_enable,
     q(31 downto 0) => IFID_IM_readData_s,
     q(95 downto 32) => IFID_IM_addr_s
   );
@@ -240,13 +240,12 @@ MEM_WB: entity work.flopr
       ID_EX_RegWrite => IDEX_regWrite,
       EX_MEM_MemRead => EXMEM_memRead,
       EX_MEM_RegWrite => EXMEM_regWrite,
-      IF_ID_branch => new_control(5),
+      IF_ID_branch => IDEX_Branch,
       IF_ID_RegisterRm => reg_rn_s,
       IF_ID_RegisterRd => IFID_IM_readData_s(4 downto 0),
       IF_ID_RegisterRn => IFID_IM_readData_s(9 downto 5),
       ID_EX_RegisterRd => IDEX_instr,
       EX_MEM_RegisterRd => EXMEM_instr,
-      clk => clk,
       enable => IFID_enable
   );
 
@@ -257,7 +256,7 @@ MEM_WB: entity work.flopr
       d0 => "00000000000",
       d1 => control_signals,
       s => IFID_enable,
-      y => new_control 
+      y => new_control
   );
 
 -- Other

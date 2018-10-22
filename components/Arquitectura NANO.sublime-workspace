@@ -1,0 +1,2077 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Acco",
+				"AccountContainer"
+			],
+			[
+				"inde",
+				"indent_size"
+			],
+			[
+				"keym",
+				"keymap_func"
+			],
+			[
+				"KEYM",
+				"KEYMAP_SIZE"
+			],
+			[
+				"PRO",
+				"ProductUpdateItem"
+			],
+			[
+				"prod",
+				"product_id"
+			],
+			[
+				"Pro",
+				"ProductUpdateItem"
+			],
+			[
+				"extract",
+				"extract_update"
+			],
+			[
+				"val",
+				"_values_list"
+			],
+			[
+				"total",
+				"total_items"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"Item",
+				"CategoryListItem"
+			],
+			[
+				"Product",
+				"ProductupdaterSpider"
+			],
+			[
+				"pr",
+				"product_id"
+			],
+			[
+				"produc",
+				"product_id"
+			],
+			[
+				"catego",
+				"categories"
+			],
+			[
+				"N",
+				"NULL"
+			],
+			[
+				"to",
+				"total_items"
+			],
+			[
+				"ma",
+				"MARKDOWN"
+			],
+			[
+				"Dynam",
+				"DynamicDetailRoute"
+			],
+			[
+				"u",
+				"allUsers\tproperty"
+			],
+			[
+				"admin",
+				"adminSource\tproperty"
+			],
+			[
+				"admi",
+				"adminSource\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"fabr",
+				"fabrication_date\tlet"
+			],
+			[
+				"fabri",
+				"fabrication_year\tlet"
+			],
+			[
+				"adm",
+				"adminSource\tproperty"
+			],
+			[
+				"clie",
+				"client_due_data\tlet"
+			],
+			[
+				"te",
+				"textAreaInputInterval\tproperty"
+			],
+			[
+				"tea",
+				"textAreaInputInterval\tproperty"
+			],
+			[
+				"_load",
+				"_loadingPassword\tproperty"
+			],
+			[
+				"passwo",
+				"passwordChangeForm"
+			],
+			[
+				"_l",
+				"_loadingPassword\tproperty"
+			],
+			[
+				"bu",
+				"businessInputs\tproperty"
+			],
+			[
+				"pass",
+				"passwordChangeInputs\tproperty"
+			],
+			[
+				"user",
+				"userForm\tproperty"
+			],
+			[
+				"login",
+				"loginMessage\tproperty"
+			],
+			[
+				"wra",
+				"wrap\tflex-wrap"
+			],
+			[
+				"quer",
+				"queryParamMap\tproperty"
+			],
+			[
+				"para",
+				"queryParams\tproperty"
+			],
+			[
+				"ove",
+				"overflow"
+			],
+			[
+				"Navi",
+				"NavigationEnd\talias"
+			],
+			[
+				"Local",
+				"LocalStoragePolyfill\talias"
+			],
+			[
+				"DRAW",
+				"draw_string"
+			],
+			[
+				"reqe",
+				"request_csrf_token"
+			],
+			[
+				"csrf",
+				"csrf_token"
+			],
+			[
+				"key",
+				"keypressed"
+			],
+			[
+				"draw",
+				"draw_help_line"
+			],
+			[
+				"current",
+				"current_layer"
+			],
+			[
+				"curren",
+				"current_layer"
+			],
+			[
+				"brush",
+				"brush_size"
+			],
+			[
+				"print",
+				"print_events"
+			],
+			[
+				"set",
+				"_set_new_ip"
+			],
+			[
+				"extrac",
+				"extract_first"
+			],
+			[
+				"filte",
+				"filtered_list"
+			],
+			[
+				"del",
+				"del_size"
+			],
+			[
+				"cir",
+				"circle_mode"
+			],
+			[
+				"fee",
+				"feedbackTime"
+			],
+			[
+				"tru",
+				"trustIndex"
+			],
+			[
+				"feed",
+				"feedbackEvent"
+			],
+			[
+				"ser",
+				"serviceTime"
+			],
+			[
+				"sent",
+				"sentPacketsVector"
+			],
+			[
+				"packe",
+				"packetsToRecieve"
+			],
+			[
+				"Pack",
+				"packetsToRecieve"
+			],
+			[
+				"servi",
+				"serviceTime"
+			],
+			[
+				"pakc",
+				"packetsToRecieve"
+			],
+			[
+				"pack",
+				"packetsToRecieve"
+			],
+			[
+				"pac",
+				"packetsToSend"
+			],
+			[
+				"packet",
+				"packetsToSend"
+			],
+			[
+				"buffe",
+				"bufferSizeVector"
+			],
+			[
+				"items",
+				"itemsAdd"
+			],
+			[
+				"Ite",
+				"itemsAdd"
+			],
+			[
+				"delete",
+				"deleteItem"
+			],
+			[
+				"it",
+				"itemsDelete"
+			],
+			[
+				"endSer",
+				"endServiceEvent"
+			],
+			[
+				"node",
+				"nodeTx"
+			],
+			[
+				"que",
+				"queueFeedback"
+			],
+			[
+				"Trans",
+				"TransportTx"
+			],
+			[
+				"Tra",
+				"TransportRx"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"Login",
+				"LoginContainer"
+			],
+			[
+				"Auth",
+				"AuthContext"
+			],
+			[
+				"is",
+				"is_logged"
+			],
+			[
+				"Log",
+				"LogoutContainer"
+			],
+			[
+				"depart",
+				"departureTime"
+			],
+			[
+				"cant",
+				"cant_creados"
+			],
+			[
+				"defaul",
+				"default_provider"
+			],
+			[
+				"min",
+				"min_color"
+			],
+			[
+				"mn",
+				"min_color"
+			],
+			[
+				"vert",
+				"vertices_originales"
+			],
+			[
+				"vertices",
+				"vertices_originales"
+			],
+			[
+				"color",
+				"colores_totales"
+			],
+			[
+				"colores",
+				"colores_vecinos"
+			],
+			[
+				"o",
+				"obtener_color"
+			],
+			[
+				"can",
+				"cant_creados"
+			],
+			[
+				"criterio",
+				"criterio_multiproposito"
+			],
+			[
+				"ore",
+				"order_amount"
+			],
+			[
+				"defa",
+				"default_provider_id"
+			],
+			[
+				"max",
+				"max_delivery_distance"
+			],
+			[
+				"order",
+				"order_amount"
+			],
+			[
+				"co",
+				"consumer_location"
+			],
+			[
+				"prov",
+				"provider_name"
+			],
+			[
+				"model",
+				"model_hash"
+			],
+			[
+				"exis",
+				"exists"
+			],
+			[
+				"reqes",
+				"request_payload"
+			],
+			[
+				"logged",
+				"logged_id"
+			],
+			[
+				"reques",
+				"request_payload"
+			],
+			[
+				"edge",
+				"edge_num"
+			],
+			[
+				"ca",
+				"cant_colores"
+			],
+			[
+				"ve",
+				"vecinos"
+			],
+			[
+				"colo",
+				"colores_totales"
+			],
+			[
+				"malloc",
+				"malloc_fail"
+			],
+			[
+				"nomb",
+				"nombre_vertices"
+			],
+			[
+				"crear",
+				"crear_vertice"
+			],
+			[
+				"send",
+				"send_code"
+			],
+			[
+				"code",
+				"code_string"
+			],
+			[
+				"dire",
+				"directory"
+			],
+			[
+				"get",
+				"get_file_listing"
+			],
+			[
+				"cantVe",
+				"cantVertices"
+			],
+			[
+				"CANT",
+				"cantVertices"
+			],
+			[
+				"Can",
+				"cant_vertices"
+			],
+			[
+				"Al",
+				"AleatorizarVertices"
+			],
+			[
+				"Orde",
+				"OrdenNatural"
+			],
+			[
+				"verti",
+				"vertices"
+			],
+			[
+				"Color",
+				"ColorDelVertice"
+			],
+			[
+				"COlor",
+				"ColorJotaesimoVecino"
+			],
+			[
+				"Nomb",
+				"NombreJotaesimoVecino"
+			],
+			[
+				"coo",
+				"colores_disponibles"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "IMEM.vhd",
+			"settings":
+			{
+				"buffer_size": 1320,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "hazard_detection_unit.vhd",
+			"settings":
+			{
+				"buffer_size": 1013,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "ADD     IF  ID  EX  ME  WB\nADD                 IF  ID  EX  ME  WB",
+			"settings":
+			{
+				"buffer_size": 65,
+				"line_ending": "Unix",
+				"name": "ADD     IF  ID  EX  ME  WB"
+			}
+		},
+		{
+			"file": "datapath.vhd",
+			"settings":
+			{
+				"buffer_size": 7263,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "decode.vhd",
+			"settings":
+			{
+				"buffer_size": 1387,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/testbenchs/processor_arm_tb.vhd",
+			"settings":
+			{
+				"buffer_size": 944,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "MUX64.vhd",
+			"settings":
+			{
+				"buffer_size": 429,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"schem",
+				"UI: Select Color Scheme"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"linter th",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"prettif",
+				"HTMLPrettify"
+			],
+			[
+				"json pre",
+				"Pretty JSON: Validate"
+			],
+			[
+				"h",
+				"HTMLPrettify"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"pretiffy",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"pre",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"todo",
+				"TodoReview: Project Files"
+			],
+			[
+				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"htm",
+				"HTMLPrettify"
+			],
+			[
+				"ruboc",
+				"RuboCop: Check current file"
+			],
+			[
+				"llint",
+				"RuboCop: Check current file (only with lint cops)"
+			],
+			[
+				"subli",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"sort",
+				"Sort Lines (Numerically)"
+			],
+			[
+				"preti",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"linte",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"prettify",
+				"HTMLPrettify"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 560.0
+	},
+	"console":
+	{
+		"height": 469.0,
+		"history":
+		[
+			"das",
+			"import os",
+			"os",
+			"ls",
+			"clear",
+			"l",
+			"import pydocstyle",
+			"import pydoctstyle",
+			"print",
+			"python",
+			"pydocstyle"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM"
+	],
+	"file_history":
+	[
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/flopre.vhd",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/FETCH.vhd",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/FLOPR.vhd",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/decode.vhd",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/REGFILE.vhd",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/testbenchs/processor_arm_tb.vhd",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/hazard_detection_unit.vhd",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/memory.vhd",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/MAINDEC.vhd",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/simulation/modelsim/wave.do",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/SIGNEXT.vhd",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/EXECUTE.vhd",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/armv8_createAssembly/main.list",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/clkDiv.vhd",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/armv8_createAssembly/main.s",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/DE0_NANO_arm.vhd",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/testbenchs/DE0_NANO_arm_tb.vhd",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/IMEM.vhd",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/datapath.vhd",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/db/DE0_NANO.ram0_imem_a61fe730.hdl.mif",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/simulation/modelsim/mem.dump",
+		"/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/components/processor_arm.vhd",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/frontend/src/components/auth/LoginForm.js",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/frontend/.eslintrc.json",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/frontend/src/components/itemlist/ItemList.jsx",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/frontend/src/components/account/Account.jsx",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/frontend/src/containers/Account.js",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/frontend/src/components/itemlist/Item.jsx",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/frontend/package.json",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/frontend/src/Routes.js",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/backend/core/tests.py",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/backend/core/views.py",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/frontend/package-lock.json",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/frontend/src/containers/Home.css",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/frontend/src/containers/Home.js",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/frontend/src/components/routing/Nav.js",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/frontend/src/App.js",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/frontend/src/containers/Login.js",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/frontend/public/index.html",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/backend/core/settings/base.py",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/backend/core/urls.py",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/backend/api/urls.py",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/backend/manage.py",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/backend/api/wsgi.py",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/backend/softwareinc/urls.py",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/backend/core/serializers.py",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/backend/softwareinc/views.py",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/backend/softwareinc/serializers.py",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/backend/core/__init__.py",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/backend/api/customResponses.py",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/backend/softwareinc/settings/base.py",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/backend/account/views.py",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/backend/account/serializers.py",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/backend/account/admin.py",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/backend/softwareinc/settings/dev.py",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/backend/softwareinc/settings/prod.py",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/.gitlab-ci.yml",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/backend/.editorconfig",
+		"/home/ariel-nt/Desktop/Facultad/Ingenieria del Software/Laboratorio/softwareinc-th/.gitignore",
+		"/home/ariel-nt/Desktop/softwareinc-th/frontend/package.json",
+		"/home/ariel-nt/Desktop/softwareinc-th/frontend/.editorconfig",
+		"/home/ariel-nt/Desktop/softwareinc-th/frontend/src/containers/Home.js",
+		"/home/ariel-nt/Desktop/softwareinc-th/frontend/.eslintrc.json",
+		"/home/ariel-nt/Desktop/softwareinc-th/frontend/src/components/auth/LoginForm.js",
+		"/home/ariel-nt/Desktop/softwareinc-th/frontend/src/App.js",
+		"/home/ariel-nt/Desktop/softwareinc-th/frontend/node_modules/eslint-config-airbnb-base/rules/style.js",
+		"/home/ariel-nt/Desktop/softwareinc-th/frontend/src/components/auth/SignupForm.jsx",
+		"/home/ariel-nt/Desktop/softwareinc-th/frontend/src/components/routing/NotFound.js",
+		"/home/ariel-nt/Desktop/softwareinc-th/frontend/src/components/auth/SignupForm.css",
+		"/home/ariel-nt/Desktop/Projects/C/my_shell/src/tty.c",
+		"/home/ariel-nt/Desktop/Projects/C/my_shell/include/mts.h",
+		"/home/ariel-nt/Desktop/Projects/C/my_shell/src/key_actions.c",
+		"/home/ariel-nt/Desktop/Projects/C/my_shell/src/utils.c",
+		"/home/ariel-nt/Desktop/Projects/C/my_shell/Makefile",
+		"/home/ariel-nt/Desktop/Projects/MLCrawler/db.sql",
+		"/home/ariel-nt/Desktop/Projects/MLCrawler/MLCrawler/spiders/telegramspider.py",
+		"/home/ariel-nt/Desktop/FileZilla.xml",
+		"/home/ariel-nt/Desktop/test.py",
+		"/home/ariel-nt/Desktop/Projects/MLCrawler/MLCrawler/settings.py",
+		"/home/ariel-nt/Desktop/Projects/MLCrawler/MLCrawler/extensions/logging.py",
+		"/home/ariel-nt/Desktop/InfoSec/Scrapper/scrap3",
+		"/home/ariel-nt/Desktop/InfoSec/Scrapper/ubuntu@10.42.0.25",
+		"/home/ariel-nt/Desktop/InfoSec/Scrapper/scrap",
+		"/home/ariel-nt/Desktop/InfoSec/ClinicasScrap/54.json",
+		"/home/ariel-nt/Desktop/Facultad/Bases De Datos/Laboratorio/lab-1/rutinas/rutina-b/calculate_review_mean.sql",
+		"/home/ariel-nt/Desktop/Facultad/Bases De Datos/Laboratorio/lab-1/consultas/consulta-g/consulta.sql",
+		"/home/ariel-nt/Desktop/Facultad/Bases De Datos/Laboratorio/lab-1/rutinas/rutina-a/rutina.sql",
+		"/home/ariel-nt/Desktop/Facultad/Bases De Datos/Laboratorio/lab-1/consultas/consulta-j/consulta.sql",
+		"/home/ariel-nt/Desktop/Projects/MLCrawler/MLCrawler/telegrambot.py",
+		"/home/ariel-nt/Desktop/Projects/MLCrawler/MLCrawler/pipelines.py",
+		"/home/ariel-nt/Desktop/Projects/MLCrawler/MLCrawler/items.py",
+		"/home/ariel-nt/Desktop/Projects/MLCrawler/MLCrawler/spiders/urlupdater.py",
+		"/home/ariel-nt/Desktop/Projects/MLCrawler/MLCrawler/middlewares.py",
+		"/home/ariel-nt/Desktop/Projects/MLCrawler/Rewrite Ideas",
+		"/home/ariel-nt/Desktop/ApkTool/apk/META-INF/CERT.SF",
+		"/home/ariel-nt/Desktop/ApkTool/apk/META-INF/CERT.RSA",
+		"/home/ariel-nt/.virtualenvs/futbolapp/lib/python3.5/site-packages/rest_framework/mixins.py",
+		"/home/ariel-nt/.virtualenvs/futbolapp/lib/python3.5/site-packages/rest_framework/routers.py",
+		"/home/ariel-nt/.virtualenvs/futbolapp/lib/python3.5/site-packages/rest_framework/viewsets.py",
+		"/home/ariel-nt/Desktop/Projects/Not Mine/futbolapp/futbolapp/config/urls.py",
+		"/home/ariel-nt/Desktop/Projects/Not Mine/futbolapp/futbolapp.sublime-project",
+		"/home/ariel-nt/Desktop/Projects/Not Mine/futbolapp/config/urls.py",
+		"/home/ariel-nt/Desktop/Projects/Not Mine/futbolapp/match/views.py",
+		"/home/ariel-nt/Desktop/Projects/Not Mine/futbolapp/team/views.py",
+		"/home/ariel-nt/Desktop/Projects/Not Mine/futbolapp/team/urls.py",
+		"/home/ariel-nt/Desktop/prueba.html",
+		"/home/ariel-nt/Desktop/Source Code/material2/src/lib/table/table-data-source.ts",
+		"/home/ariel-nt/Desktop/Source Code/material2/src/cdk/collections/data-source.ts",
+		"/home/ariel-nt/Desktop/Projects/Web/bestjet-ssr-frontend/src/app/rma/rma.component.ts",
+		"/home/ariel-nt/Desktop/Projects/Web/bestjet-ssr-frontend/src/app/mytypes.ts",
+		"/home/ariel-nt/Desktop/Projects/Web/bestjet-ssr-frontend/node_modules/dns-packet/types.js",
+		"/home/ariel-nt/Desktop/Projects/Web/bestjet-ssr-frontend/src/app/for-obj.pipe.ts",
+		"/home/ariel-nt/Desktop/Projects/Web/bestjet-ssr-frontend/src/app/press-kit/press-kit.component.ts",
+		"/home/ariel-nt/Desktop/Projects/Web/bestjet-ssr-frontend/src/app/account/account.component.html",
+		"/home/ariel-nt/Desktop/Projects/Web/bestjet-ssr-frontend/src/app/press-kit/press-kit.component.html",
+		"/home/ariel-nt/Desktop/Projects/Web/bestjet-ssr-frontend/src/app/price-list/price-list.component.ts",
+		"/home/ariel-nt/Desktop/Projects/Web/bestjet-ssr-frontend/src/app/press-kit/press-kit.component.css",
+		"/home/ariel-nt/Desktop/Projects/Web/bestjet-ssr-frontend/src/app/account/account.component.ts",
+		"/home/ariel-nt/Desktop/Projects/Web/bestjet-ssr-frontend/src/app/api.service.ts",
+		"/home/ariel-nt/Desktop/Projects/Web/bestjet-ssr-frontend/src/app/opform.service.ts",
+		"/home/ariel-nt/Desktop/Projects/Web/bestjet-ssr-frontend/src/app/account/account.component.css",
+		"/home/ariel-nt/Desktop/Projects/Web/bestjet-ssr-frontend/src/app/render-input/render-input.component.css",
+		"/home/ariel-nt/Desktop/Projects/Web/bestjet-ssr-frontend/src/app/render-input/render-input.component.html",
+		"/home/ariel-nt/Desktop/Projects/Web/bestjet-ssr-frontend/src/app/render-input/render-input.component.ts",
+		"/home/ariel-nt/Desktop/Projects/Web/bestjet-ssr-frontend/src/app/app.component.ts",
+		"/home/ariel-nt/Desktop/Projects/Web/bestjet-ssr-frontend/src/app/render-input/render-input.component.styl",
+		"/home/ariel-nt/Desktop/Projects/Web/bestjet-ssr-frontend/src/app/register-where-to-buy/register-where-to-buy.component.html",
+		"/home/ariel-nt/Desktop/Projects/Web/bestjet-ssr-frontend/src/app/routes.ts"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 212.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"writedata_D",
+			"writeData3_D",
+			"IDEX_memWrite",
+			"ID_EX_MemRead",
+			"clk",
+			"IFID_enable",
+			"rising_edge",
+			"risi",
+			"PCNEXT",
+			"PCnext",
+			"IM_ADDR",
+			"hex",
+			"IM_READDATA",
+			"imem_addr",
+			"reg2loc",
+			"nonZBR",
+			"signIMm_e",
+			"signImm_E",
+			"imem_addr_F",
+			"PC",
+			"READDATA",
+			"frec_div",
+			"writeEnable",
+			"mem",
+			"CLOCK_50",
+			"10000000011111",
+			"11111",
+			"report",
+			"11111000000000001",
+			"variable"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "IMEM.vhd",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								429,
+								429
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								226,
+								10,
+								18,
+								19,
+								38,
+								52,
+								10,
+								204,
+								19,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/VHDL/Syntaxes/VHDL.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 88.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "hazard_detection_unit.vhd",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1013,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1012,
+								1012
+							]
+						],
+						"settings":
+						{
+							"SL.59.region_keys":
+							[
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								226,
+								10,
+								21,
+								18,
+								3,
+								16,
+								4,
+								185,
+								193,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/VHDL/Syntaxes/VHDL.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 65,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								56
+							]
+						],
+						"settings":
+						{
+							"auto_name": "ADD     IF  ID  EX  ME  WB",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "datapath.vhd",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1115,
+								1115
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								226,
+								10,
+								18,
+								1,
+								8,
+								1,
+								0,
+								146,
+								111,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/VHDL/Syntaxes/VHDL.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "decode.vhd",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1144,
+								1144
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								226,
+								10,
+								21,
+								16,
+								27,
+								37,
+								6,
+								56,
+								53,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/VHDL/Syntaxes/VHDL.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/ariel-nt/Desktop/Facultad/Arquitectura del Computador/Laboratorio/DE0_NANO_ARM/testbenchs/processor_arm_tb.vhd",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 944,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								876,
+								876
+							]
+						],
+						"settings":
+						{
+							"SL.68.region_keys":
+							[
+							],
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								226,
+								10,
+								21,
+								16,
+								27,
+								37,
+								9,
+								116,
+								91,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/VHDL/Syntaxes/VHDL.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 522.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "MUX64.vhd",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								341,
+								341
+							]
+						],
+						"settings":
+						{
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								226,
+								10,
+								17,
+								20,
+								17,
+								47,
+								2,
+								25,
+								38,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/VHDL/Syntaxes/VHDL.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 64.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 407.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 966.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 342.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Arquitectura NANO.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"decode",
+				"components/decode.vhd"
+			],
+			[
+				"datap",
+				"components/datapath.vhd"
+			],
+			[
+				"proce_tb",
+				"testbenchs/processor_arm_tb.vhd"
+			],
+			[
+				"FLOPRE",
+				"components/flopre.vhd"
+			],
+			[
+				"FLOPR",
+				"components/FLOPR.vhd"
+			],
+			[
+				"regfi",
+				"components/REGFILE.vhd"
+			],
+			[
+				"hazar",
+				"components/hazard_detection_unit.vhd"
+			],
+			[
+				"flopre",
+				"components/flopre.vhd"
+			],
+			[
+				"MUX64",
+				"components/MUX64.vhd"
+			],
+			[
+				"FET",
+				"components/FETCH.vhd"
+			],
+			[
+				".do",
+				"simulation/modelsim/wave.do"
+			],
+			[
+				"pro_tb",
+				"testbenchs/processor_arm_tb.vhd"
+			],
+			[
+				"haza",
+				"components/hazard_detection_unit.vhd"
+			],
+			[
+				"data",
+				"components/datapath.vhd"
+			],
+			[
+				"IMEM",
+				"components/IMEM.vhd"
+			],
+			[
+				"MEMO",
+				"components/memory.vhd"
+			],
+			[
+				"imem",
+				"components/IMEM.vhd"
+			],
+			[
+				"sig",
+				"components/SIGNEXT.vhd"
+			],
+			[
+				"maindec",
+				"components/MAINDEC.vhd"
+			],
+			[
+				"fetch",
+				"components/FETCH.vhd"
+			],
+			[
+				"datapa",
+				"components/datapath.vhd"
+			],
+			[
+				"clkdiv",
+				"components/clkDiv.vhd"
+			],
+			[
+				"nano_tb",
+				"testbenchs/DE0_NANO_arm_tb.vhd"
+			],
+			[
+				"MEMDEC",
+				"components/MAINDEC.vhd"
+			],
+			[
+				".DUMP",
+				"simulation/modelsim/mem.dump"
+			],
+			[
+				".dum",
+				"simulation/modelsim/mem.dump"
+			],
+			[
+				".dump",
+				"simulation/modelsim/mem.dump"
+			],
+			[
+				"pr",
+				"testbenchs/processor_arm_tb.vhd"
+			],
+			[
+				"proce",
+				"components/processor_arm.vhd"
+			],
+			[
+				"MEM.D",
+				"simulation/modelsim/mem.dump"
+			],
+			[
+				"main",
+				"components/MAINDEC.vhd"
+			],
+			[
+				".mif",
+				"db/DE0_NANO.ram0_imem_a61fe730.hdl.mif"
+			],
+			[
+				"MIF",
+				"db/DE0_NANO.ram0_imem_a61fe730.hdl.mif"
+			],
+			[
+				"signe",
+				"components/SIGNEXT.vhd"
+			],
+			[
+				"mem",
+				"simulation/modelsim/mem.dump"
+			],
+			[
+				"mem.d",
+				"simulation/modelsim/mem.dump"
+			],
+			[
+				"regf",
+				"components/REGFILE.vhd"
+			],
+			[
+				"itemli",
+				"frontend/src/components/itemlist/ItemList.jsx"
+			],
+			[
+				".esl",
+				"frontend/.eslintrc.json"
+			],
+			[
+				".esli",
+				"frontend/.eslintrc.json"
+			],
+			[
+				"account.js",
+				"frontend/src/components/account/Account.jsx"
+			],
+			[
+				"ITEM.JSX",
+				"frontend/src/components/itemlist/Item.jsx"
+			],
+			[
+				"packa",
+				"frontend/package.json"
+			],
+			[
+				".eslint",
+				"frontend/.eslintrc.json"
+			],
+			[
+				"core/tests",
+				"backend/core/tests.py"
+			],
+			[
+				"views.py",
+				"backend/core/views.py"
+			],
+			[
+				"Home",
+				"frontend/src/containers/Home.css"
+			],
+			[
+				"Account",
+				"frontend/src/containers/Account.js"
+			],
+			[
+				"routes",
+				"frontend/src/Routes.js"
+			],
+			[
+				"manage.py",
+				"backend/manage.py"
+			],
+			[
+				"core/urls",
+				"backend/core/urls.py"
+			],
+			[
+				"base.py",
+				"backend/core/settings/base.py"
+			],
+			[
+				"core/seria",
+				"backend/core/serializers.py"
+			],
+			[
+				"base.",
+				"backend/softwareinc/settings/base.py"
+			],
+			[
+				"account",
+				"frontend/src/containers/Account.js"
+			],
+			[
+				"d.py",
+				"backend/softwareinc/settings/dev.py"
+			],
+			[
+				"admin.py",
+				"backend/account/admin.py"
+			],
+			[
+				".jsx",
+				"frontend/src/components/account/Account.jsx"
+			],
+			[
+				"Account.js",
+				"frontend/src/containers/Account.js"
+			],
+			[
+				"prod",
+				"backend/softwareinc/settings/prod.py"
+			],
+			[
+				"softwareinc/urls",
+				"backend/softwareinc/urls.py"
+			],
+			[
+				"accou",
+				"frontend/src/containers/Account.js"
+			],
+			[
+				"account.jsx",
+				"frontend/src/components/account/Account.jsx"
+			],
+			[
+				"pack",
+				"frontend/package.json"
+			],
+			[
+				"bind",
+				"bind.c"
+			],
+			[
+				"vi",
+				"vi_keymap.c"
+			],
+			[
+				".h",
+				"include/mts.h"
+			],
+			[
+				"userio",
+				"src/userio.c"
+			],
+			[
+				"settings",
+				"MLCrawler/settings.py"
+			],
+			[
+				"pipe",
+				"MLCrawler/pipelines.py"
+			],
+			[
+				"items",
+				"MLCrawler/items.py"
+			],
+			[
+				"teleg",
+				"MLCrawler/telegrambot.py"
+			],
+			[
+				".sql",
+				"db.sql"
+			],
+			[
+				"sett",
+				"MLCrawler/settings.py"
+			],
+			[
+				"db.sq",
+				"db.sql"
+			],
+			[
+				"match/mode",
+				"futbolapp/futbolapp/match/models.py"
+			],
+			[
+				"match/model",
+				"futbolapp/futbolapp/match/models.py"
+			],
+			[
+				"field/model",
+				"futbolapp/futbolapp/field/models.py"
+			],
+			[
+				"team/model",
+				"futbolapp/futbolapp/team/models.py"
+			],
+			[
+				"views",
+				"match/views.py"
+			],
+			[
+				"urls",
+				"config/urls.py"
+			],
+			[
+				"api.ser",
+				"src/app/api.service.ts"
+			],
+			[
+				"rma.",
+				"src/app/rma/rma.component.ts"
+			],
+			[
+				"press-k",
+				"src/app/press-kit/press-kit.component.html"
+			],
+			[
+				"rma.co",
+				"src/app/rma/rma.component.ts"
+			],
+			[
+				"rma.comp",
+				"src/app/rma/rma.component.ts"
+			],
+			[
+				"myt",
+				"src/app/mytypes.ts"
+			],
+			[
+				"types",
+				"node_modules/dns-packet/types.js"
+			],
+			[
+				"app.com",
+				"src/app/app.component.ts"
+			],
+			[
+				"press-kit",
+				"src/app/press-kit/press-kit.component.ts"
+			],
+			[
+				"price-",
+				"src/app/price-list/price-list.component.ts"
+			],
+			[
+				"render-in",
+				"src/app/render-input/render-input.component.css"
+			],
+			[
+				"render",
+				"src/app/render-input/render-input.component.html"
+			],
+			[
+				"render-input",
+				"src/app/render-input/render-input.component.html"
+			],
+			[
+				"renderinput",
+				"src/app/render-input/render-input.component.ts"
+			],
+			[
+				"accoun",
+				"src/app/account/account.component.css"
+			],
+			[
+				"account.co",
+				"src/app/account/account.component.css"
+			],
+			[
+				"app.compo",
+				"src/app/app.component.ts"
+			],
+			[
+				"serve",
+				"server.ts"
+			],
+			[
+				"opform",
+				"src/app/opform/opform.component.ts"
+			],
+			[
+				"index",
+				"src/index.html"
+			],
+			[
+				"webpack",
+				"webpack.server.config.js"
+			],
+			[
+				"main.ser",
+				"src/main.server.ts"
+			],
+			[
+				"angular.js",
+				"angular.json"
+			],
+			[
+				"server.ts",
+				"server.ts"
+			],
+			[
+				"webpa",
+				"webpack.server.config.js"
+			],
+			[
+				"settings.ts",
+				"src/app/app.settings.ts"
+			],
+			[
+				"products.",
+				"src/app/products/products.component.html"
+			],
+			[
+				"server",
+				"server.ts"
+			],
+			[
+				"api.service",
+				"src/app/api.service.ts"
+			],
+			[
+				"app.ser",
+				"src/app/app.server.module.ts"
+			],
+			[
+				"server.js",
+				"dist/server.js"
+			],
+			[
+				"index.html",
+				"src/index.html"
+			],
+			[
+				"product",
+				"src/app/products/products.component.ts"
+			],
+			[
+				"api",
+				"src/app/api.service.ts"
+			],
+			[
+				"local-sto",
+				"src/app/local-storage-polyfill.ts"
+			],
+			[
+				"app.mode",
+				"src/app/app.module.ts"
+			],
+			[
+				"main.ts",
+				"src/main.ts"
+			],
+			[
+				"apiservice",
+				"src/app/api.service.ts"
+			],
+			[
+				"opforms",
+				"src/app/opform.service.ts"
+			],
+			[
+				"slider.com",
+				"src/app/slider/slider.component.ts"
+			],
+			[
+				"myty",
+				"src/app/mytypes.ts"
+			],
+			[
+				"envi",
+				"src/environments/environment.ts"
+			],
+			[
+				"enviro",
+				"src/environments/environment.ts"
+			],
+			[
+				"angular.json",
+				".angular-cli.json"
+			],
+			[
+				"app.mod",
+				"src/app/app.module.ts"
+			],
+			[
+				"grap",
+				"src/graphicsImpl.ml"
+			],
+			[
+				"app.ml",
+				"src/app.mli"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/Projects/Not Mine/futbolapp/futbolapp.sublime-project"
+			],
+			[
+				"ml",
+				"~/Desktop/Projects/Not Mine/futbolapp/futbolapp/match/MLCrawler.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 1172.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 335.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

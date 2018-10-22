@@ -19,7 +19,7 @@ variable tmp : reg_t := (others => (others => '0'));
 		for i in 0 to 31 loop
 			-- Initialize each address with the address itself
 			tmp(i) := std_logic_vector(to_unsigned(i, 64));
-			if (i = 31)then
+			if (i = 31) then
 				tmp(i):=(others => '0');
 			end if;
 		end loop;
@@ -29,7 +29,7 @@ end init_reg;
 signal reg_bank : reg_t := init_reg;
 
 begin
-	process(clk,ra1,ra2,we3,wa3,wd3,reg_bank)
+	process(clk,we3,wa3,wd3)
 	begin
 
 	if (rising_edge(clk) and (we3 = '1') and (to_integer(unsigned(wa3)) < 31 )) then

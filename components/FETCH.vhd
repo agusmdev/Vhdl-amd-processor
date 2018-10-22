@@ -35,8 +35,22 @@ B : in std_logic_vector(N-1 downto 0);
 y : OUT std_logic_vector(N-1 downto 0));
 end component;
 begin
-   dut_FLOPR: FLOPRE port map (reset => reset, clk => clk, enable => IFID_enable, d => PCnext, q => PC);
+   dut_FLOPR: FLOPRE port map (
+    reset => reset,
+    clk => clk,
+    enable => IFID_enable,
+    d => PCnext,
+    q => PC);
+
 	imem_addr_F <= PC;
-   dut_MUX64: MUX64 port map (d1 => PCbranch_F, d0 => PCplus4, s => PCSrc_F, y => PCnext);
-	dut_ADDER: ADDER port map (A => PC, B => (x"0000000000000004"), y => PCplus4);
+
+  dut_MUX64: MUX64 port map (
+    d1 => PCbranch_F,
+    d0 => PCplus4,
+    s => PCSrc_F,
+    y => PCnext);
+	dut_ADDER: ADDER port map (
+    A => PC,
+    B => (x"0000000000000004"),
+    y => PCplus4);
 end synth;
